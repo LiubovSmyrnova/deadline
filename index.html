@@ -11,18 +11,43 @@
     <title>Deadline</title>
 </head>
 <body>
-    <div class="container">
+    <!-- NAVIGATION -->
+ <nav class="nav">
+    <div class="logo"><p>Bhromaon</p>
+    </div>
+   <div class="topnav" id="myTopnav">
+      <a href="#home">Who We Are</a>
+      <a href="#news">What We Do</a>
+      <a href="#contact">Travel with Us</a>
+      <a href="#about">Contact Us</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+   </div>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+    <script src="https://kit.fontawesome.com/898f4e7069.js" crossorigin="anonymous"></script>
+    </nav>
+     <!-- ///////NAVIGATION -->
     <div class="header">
         <h1>BHROMAON</h1>
         <h2>Safe travel Anywhere</h2>
             <div class="search-container">
                 <form id="form" role="search">
                 <input type="text" placeholder="Search Your Travel Destination">
-                <button class="searchbtn" type="submit">Search <i class="fa-solid fa-magnifying-glass"></i></button>
+                <button class="searchbtn" type="submit">Search <i id="glass" class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
             </div>
-            <button class="scrolldown">Scroll down<span>
-            </span><i class="fa-solid fa-chevron-down"></i></button> 
+            <div class="btnscroll"><button class="scrolldown">Scroll down<span>
+            </span><i class="fa-regular fa-angle-down"></i></button></div>
     </div>
     <div class="firstpage">
         <div clas="leftpart">
@@ -33,10 +58,44 @@
         </p>
     </div>
     <div class="rightpart">
-        <img src="images/2">
+        <img id="water" src="images/2.png">
         <img src="images/3.png">
     </div>
-    </div>
-    </div>  
+    </div> 
+    <div class="book">
+        <div class="text-block">
+         <h3>Spain</h3>
+         <h4>Grand Spain Madrid</h4>
+         <p>But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system</p>
+         <button class="btn-blue">Book Now</button>
+         </div>
+     </div>  
+     <div class="book2">
+       <div class="text-block">
+        <h3>Spain</h3>
+        <h4>Grand Spain Madrid</h4>
+        <p>But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system</p>
+        <button class="btn-blue">Book Now</button>
+        </div>
+     </div>  
+     <div class="book3">
+       <h5>What Our  Tourist Say</h5>
+       <div class="samblock">
+         <img src="/images/7.png" style="height: 30vh;">
+       <div class="text-block2">
+        <h4>Sam Sumon</h4>
+        <p><i class="fa-solid fa-quote-left"></i>But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain  But I must explain to you how all this mistaken idea of account to nai denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system was account  born and I account will give you a nai the complete account of the system</p>
+        </div>
+       </div>
+     </div>
+      <!-- FOOOTER -->
+     <div class="footer">
+          <div class="text-footer">
+        <h4>Bhromaon</h4>
+        <h6>Safe Travel Anywhere</h6>
+        <p><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-linkedin-in"></i><i class="fa-brands fa-youtube"></i><i class="fa-brands fa-pinterest"></i></p>
+          </div> 
+     </div>
+      <!-- FOOOTER -->
 </body>
 </html>
