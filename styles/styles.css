@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    display: block;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+h1 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+h2 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 6.82px;
+    color: #FFFFFF;
+}
+form {
+    height: 63px;
+    font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+align-items: center;
+text-align: center;
+letter-spacing: 1.4px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.search {
+    background: #5474FD;
+border: 2px solid #FFFFFF;
+
+}
+::placeholder {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+}
