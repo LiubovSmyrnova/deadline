@@ -1,11 +1,18 @@
+.container {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+}
 .header {
     display: flex;
     display: block;
     background-image: url(../images/bg.png);
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     text-align: center;
-    padding: 30px;
+    padding:10px;
 }
 h1 {
     font-family: 'Josefin Sans';
@@ -28,27 +35,111 @@ h2 {
     color: #FFFFFF;
 }
 form {
+    padding-bottom: 50px;
+    flex-direction: row;
     height: 63px;
-    font-family: 'Aleo';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 26px;
-align-items: center;
-text-align: center;
-letter-spacing: 1.4px;
-text-transform: uppercase;
-color: #FFFFFF;
-}
-.search {
-    background: #5474FD;
-border: 2px solid #FFFFFF;
-
-}
-::placeholder {
     font-family: 'Aleo';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 26px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+input {
+    width: 503px;
+    height: 63px;
+    left: 0px;
+    top: 0px;
+    border: 0;
+    background: #FFFFFF;
+    letter-spacing: 2.8px;
+}
+.searchbtn {
+    width: 153px;
+    height: 63px;
+    background: #5474FD;
+    border: 2px solid #FFFFFF;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.searchbtn:hover {
+background-color: #8fa1f3;
+}
+
+::placeholder {
+    text-align: center;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+}
+.scrolldown {
+    background: none;
+    border: none;
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+letter-spacing: 2.8px;
+color: #FFFFFF;
+cursor: pointer;
+transition-duration: 0.4s;
+}
+.scrolldown:hover {
+    color: #121731;
+}
+.firstpage {
+    display:flex;
+    background-image: url(../images/4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.leftpart {
+    display: block;
+    width:50%;
+    align-items: center;
+}
+h3{
+    display: block;
+    font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 26px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+.text1 {
+    display: block;
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+display: flex;
+align-items: center;
+letter-spacing: 1.6px;
+
+color: #E8E8E8;
+}
+.rightpart {
+    display: block;
+    width: 50%;
+    align-items: center;
 }
