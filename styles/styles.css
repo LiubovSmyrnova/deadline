@@ -108,14 +108,14 @@ background-color: #8fa1f3;
     background: none;
     border: none;
     font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 26px;
-letter-spacing: 2.8px;
-color: #FFFFFF;
-cursor: pointer;
-transition-duration: 0.4s;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition-duration: 0.4s;
 }
 .scrolldown:hover {
     scale: 1.5;
@@ -143,6 +143,18 @@ transition-duration: 0.4s;
     color: white;
     padding: 20px; 
 }
+.part2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 40vh;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    padding: 20px; 
+}
 .part p {
     font-family: 'Josefin Sans';
     font-style: normal;
@@ -152,6 +164,12 @@ transition-duration: 0.4s;
     display: flex;
     align-items: center;
     color: #E8E8E8;
+}
+.image1 {
+    margin: 20px;
+}
+.image2 {
+    margin-left: 25%;
 }
 .iconbar {
     height: 35vh;
@@ -174,11 +192,11 @@ transition-duration: 0.4s;
 }
 .search-icon p {
     font-family: 'Aleo';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 26px;
-color: #E8E8E8;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    color: #E8E8E8;
 }
 .search-icon i {
     scale:4;
@@ -393,15 +411,15 @@ color: #E8E8E8;
     }
     h5 {
       font-family: 'Aleo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 26px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-    margin-bottom: 5%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 5%;
     }
     h6 {
       font-family: 'Josefin Sans';
@@ -494,11 +512,14 @@ color: #E8E8E8;
         justify-content: center;
         align-items: center;
     }
-    .part {
+    .part2 {
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 20px;
         padding: 20px;
+        flex-direction: row;
+        margin-top: 50px;
+        align-items: flex-end;
     }
     .iconbar {
         height: 80vh;
@@ -533,6 +554,15 @@ color: #E8E8E8;
     justify-content: flex-end;
     align-items: flex-end;
     height: 30vw;
+}
+.image1 {
+    margin: 0;
+    width: 50vw;
+}
+.image2 {
+    margin-left: 0;
+    width: 50vw;
+    margin: 0;
 }
    }
    
